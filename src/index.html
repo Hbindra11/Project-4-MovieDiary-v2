@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Diary - Home</title>
+
+    <!--<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">-->
+    <!--Link to the styles.css file for TailwindCSS styles-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Link to the main Javascript file  for index.html functionality-->
+    <script type="module" src="main.js"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header section with a centered title-->
+    <header class="p-5 bg-gray-800 text-white flex justify-center items-center">
+        <h1 class="text-3xl font-bold">Movie Diary</h1>
+    </header>
+
+    <!-- Navigation bar with links to Home and Journal pages -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between">
+            <div class="ml-auto flex space-x-4">
+                <a href="index.html" class="hover:underline">Home</a>
+                <a href="journal.html" class="hover:underline">Journal</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Search Bar for users to search for movies-->
+    <section class="mt-6 container mx-auto">
+        <div class="text-center">
+            <h2 class="text-3xl font-bold mb-4">Search for Movies</h2>
+            <div class="flex justify-center">
+                <input id="searchInput" type="text" placeholder="Enter movie name" class="p-2 border border-gray-400 rounded-l-md">
+                <button id="searchButton" class="p-2 bg-blue-500 text-white rounded-r-md">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Container section where search results will be displayed -->
+    <section class="mt-6 container mx-auto">
+        <div id="movie-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Movie cards will be dynamically added here -->
+        </div>
+    </section>
+
+</body>
+</html>
