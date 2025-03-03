@@ -1,4 +1,4 @@
-# Project 3: Movie Diary App using TMDB API (source: LMS)
+# Project 3: Movie Diary App using TMDB API 
 
 ## Website Description:
 Welcome to the Movie Diary App! This web application allows users to explore popular movies using the TMDB API and maintain a personal movie diary. Users can search for movies, view detailed information, and add their favorite movies to a journal. The app also provides functionality to add personal notes to each movie entry. The Movie Diary App is designed with a user-friendly interface and is styled using TailwindCSS.
